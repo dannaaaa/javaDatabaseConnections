@@ -1,4 +1,4 @@
-package come.spartagloba.JavaDatabaseConnections;
+package com.spartagloba.JavaDatabaseConnections;
 
 import static org.junit.Assert.assertTrue;
 
