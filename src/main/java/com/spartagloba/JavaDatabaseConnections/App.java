@@ -11,8 +11,15 @@ public class App
     {
 
         //System.out.println( "Hello World!" );
-        JDBCExample jdbcExample = new JDBCExample();
-        jdbcExample.iterateThroughEmployees();
+        NWEmployeesDAO NWEmployeesDAO = new NWEmployeesDAO();
+        //NWEmployeesDAO.iterateThroughEmployees();
+        //NWEmployeesDAO.getTotalNumberOfEmployees();
+        //NWEmployeesDAO.getEmployeesOver60();
+        NWEmployeesDAO.getEmployeeCountry();
+        //NWEmployeesDAO.getVicePresident();
+        //NWEmployeesDAO.getLondonCustomers();
+        //NWEmployeesDAO.getCompanyOwners();
+        //NWEmployeesDAO.getShipCountry();
 
 //        PropertiesManager props = new PropertiesManager();
 //        System.out.println(props);

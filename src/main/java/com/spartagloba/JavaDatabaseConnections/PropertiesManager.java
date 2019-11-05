@@ -9,6 +9,7 @@ public class PropertiesManager {
     private String username;
     private String password;
 
+    //refers to the app.properties where the password and user name is stored
     public PropertiesManager() {
         Properties properties = new Properties();
         try {
